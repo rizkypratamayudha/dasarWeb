@@ -14,11 +14,11 @@
     //cek form sudah disubmit
     if($_SERVER["REQUEST_METHOD"]=="POST"){
         //validasi nama
-        if (empty($_POST[$nama])){
+        if (empty($_POST["nama"])){
             $namaErr = "Nama harus diisi";
         }
         else {
-            $nama = $_POST[$nama];
+            $nama = $_POST["nama"];
             echo "Data Berhasil Disimpan:";
         }
     }
