@@ -19,4 +19,4 @@
 </body>
 </html>
 
-//sessiondel
+//sessiondelete
