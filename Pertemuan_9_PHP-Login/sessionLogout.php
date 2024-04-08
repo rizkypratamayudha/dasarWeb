@@ -9,4 +9,3 @@ echo"Anda berhasil logout"  ;
 <?php
 
 ?>
-////
