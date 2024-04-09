@@ -31,7 +31,9 @@
                         $kelamin = ($row['jenis_kelamin']==='L')?'Laki-Laki' : 'Perempuan';
                         echo "<tr>
                             <td>" . $no++ . "</td><td>"
-                            . $row["nama"] . "</td><td>
+                            . $row["nama"] . "</td><td>"
+                            . $kelamin . "</td><td?>" 
+                            . $row["alamat"] . "</td>
 
                         
                         
