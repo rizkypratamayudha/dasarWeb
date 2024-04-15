@@ -12,8 +12,8 @@ include 'fungsi/pesan_kilat.php';
 include 'fungsi/anti_injection.php';
 
 // Mendapatkan nilai dari input username dan password, dan mencegah SQL injection
-$username = antiinjection($koneksi, $_POST['username']);
-$password = antiinjection($koneksi, $_POST['password']);
+$username = anti_injection($koneksi, $_POST['username']);
+$password = anti_injection($koneksi, $_POST['password']);
 
 // Membuat query untuk mendapatkan informasi pengguna dari database
 $query = "SELECT username,level,salt, password as hashed_password FROM user WHERE username='$username'";
