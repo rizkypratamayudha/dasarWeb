@@ -4,4 +4,5 @@ function anti_injection($koneksi, $data){
     return $filter_sql;
 }
 
+
 ?>
