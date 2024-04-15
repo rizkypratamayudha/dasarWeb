@@ -47,6 +47,6 @@ if ($salt !== null && $hashed_password !== null) {
     header("location:login.php");
 }
 
-// Menghentikan eksekusi kode selanjutnya
+// Menghentikan eksekusi kode selanjutnya//
 die();
 ?>
