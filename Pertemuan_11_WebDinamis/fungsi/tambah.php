@@ -50,3 +50,4 @@ if (!empty($_SESSION['username'])) {
 } else {
     header("Location: ../index.php?page=login");
 }
+
