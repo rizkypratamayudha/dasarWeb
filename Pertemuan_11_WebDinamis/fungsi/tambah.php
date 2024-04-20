@@ -40,7 +40,7 @@ if (!empty($_SESSION['username'])) {
             if (mysqli_query($koneksi, $query2)) {
                 pesan('success', "Anggota Baru Ditambahkan.");
             } else {
-                pesan('warning', "Gagal Menabahkan Anggota Tetapi Data Login Tersimpan Karena: " . mysqli_error($koneksi));
+                pesan('warning', "Gagal Menambahkan Anggota Tetapi Data Login Tersimpan Karena: " . mysqli_error($koneksi));
             }
         } else {
             pesan('danger', "Gagal Menambahkan Anggota Karena: " . mysqli_error($koneksi));
