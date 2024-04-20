@@ -4,4 +4,5 @@ $koneksi = mysqli_connect("localhost", "root", "", "prakwebdb2");
 
 if (mysqli_connect_error()) {
     die("Koneksi database gagal: " . mysqli_connect_error());
+    
 }

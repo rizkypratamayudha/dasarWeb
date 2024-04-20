@@ -33,6 +33,7 @@ if ($result) {
     } else {
         pesan('danger', "Login gagal. Password tidak valid.");
         header("Location: login.php");
+        
     }
 } else {
     pesan('danger', "Terjadi kesalahan dalam mengakses data pengguna."); 
