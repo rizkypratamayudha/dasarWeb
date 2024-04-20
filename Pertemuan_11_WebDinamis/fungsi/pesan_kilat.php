@@ -6,6 +6,7 @@ function set_flashdata($key = "", $value = "")
         return true;
     }
     return false;
+    
 }
 
 function get_flashdata($key = "")
