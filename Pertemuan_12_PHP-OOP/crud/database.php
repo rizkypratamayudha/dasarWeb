@@ -3,7 +3,7 @@ class Database {
     private $host = "localhost";
     private $username = "root";
     private $password = "";
-    private $database  = "prakwebdb";
+    private $database  = "prakwebdb2";
     public $conn;
 
     public function __construct(){
